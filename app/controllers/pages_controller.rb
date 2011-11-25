@@ -5,4 +5,13 @@ class PagesController < ApplicationController
   def contact
   end
 
+  def about
+  end
+
+  def feedback
+  end
+
+  def services
+  end
+
 end

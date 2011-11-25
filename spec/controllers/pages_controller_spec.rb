@@ -16,4 +16,25 @@ describe PagesController do
     end
   end
 
+  describe "GET 'about'" do
+    it "should be successful" do
+      get 'about'
+      response.should be_success
+    end
+  end
+
+  describe "GET 'feedback'" do
+    it "should be successful" do
+      get 'feedback'
+      response.should be_success
+    end
+  end
+
+  describe "GET 'services'" do
+    it "should be successful" do
+      get 'services'
+      response.should be_success
+    end
+  end
+
 end
