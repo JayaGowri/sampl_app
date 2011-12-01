@@ -1,0 +1,30 @@
+body { background-color: #ffff99; color: #333; }
+
+    
+body, p, ol, ul, td {
+      font-family: verdana, arial, helvetica, sans-serif;
+font-size:   13px;
+      line-height: 18px;
+    }
+
+    
+pre {
+      background-color: #eee;
+      padding: 10px;
+      font-size: 11px;
+    }
+
+    
+a { color: #000; }
+    
+a:visited { color: #666; }
+    
+a:hover { color: #fff; background-color:#000; }
+  
+h1{ font-family: "Arial Narrow";
+	font-size: 14px;
+	font-weight: bold;
+	color: #9ACD32;
+	text-decoration: none;
+	line-height: 22px;
+}

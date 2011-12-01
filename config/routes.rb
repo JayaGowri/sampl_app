@@ -1,24 +1,20 @@
 SamplApp::Application.routes.draw do
   
-  get "pages/home"
-
-  get "pages/contact"
-
-  get "pages/about"
-
-  get "pages/feedback"
-
-  get "pages/services"
-
 get "pages/home"
 
   
 get "pages/contact"
 
   
-get "pages/about"  
-get "pages/feedback"  
-get "pages/services" 
+get "pages/about"
+
+  
+get "pages/feedback"
+
+  
+get "pages/services"
+
+
 
 # The priority is based upon order of creation:
   

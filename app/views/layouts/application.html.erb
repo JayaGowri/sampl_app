@@ -6,13 +6,15 @@
   
 <title><%= @title %></title>
   
-<%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+<%= stylesheet_link_tag 'blueprint/ss', :media => 'screen' %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
-<body>
+
+</head><body>
 
 <%= yield %>
 
 </body>
+
 </html>
